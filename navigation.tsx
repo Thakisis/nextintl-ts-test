@@ -27,7 +27,7 @@ export const pathnames = {
     es: '/servicios',
   },
   '/redirect': '/redirect'
-} satisfies Pathnames<typeof locales>
+}
 
 export const { Link, redirect, usePathname, useRouter } =
   createLocalizedPathnamesNavigation({

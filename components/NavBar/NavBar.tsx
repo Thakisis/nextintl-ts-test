@@ -1,23 +1,23 @@
 import React from 'react'
-import { MenuItem, Url } from '@/types'
+import { MenuItem } from '@/types'
 import { menuList } from '@/constants/'
-import { Link } from '@/navigation'
+import { Link, pathnames } from '@/navigation'
 import { getTranslator } from '@/lib'
 import { locales } from '@/navigation'
+import LangSelector from './LangSelector'
 
 const NavBar: React.FC = async () => {
     const { t, locale } = await getTranslator('Navigation')
+
     const menuItems: JSX.Element[] = menuList.map((menu: MenuItem, index: number) =>
-        // @ts-ignore unable to accept the type
+
         <Link href={menu.url} key={menu.url} className=" no-underline hover:underline" prefetch locale={locale}>
             {t(menu.text)}
         </Link>
 
     )
     const localesList = locales.map((locale, index: number) =>
-        <Link href={`/`} key={locale} className=" no-underline hover:underline" prefetch locale={locale}>
-            {locale}
-        </Link>
+        <LangSelector key={index} locale={locale} />
     )
 
     return (
