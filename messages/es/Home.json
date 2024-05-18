@@ -1,0 +1,15 @@
+{
+    "title": "Inicio",
+    "description": "Esta es la página de inicio.",
+    "herosub": "Somos expertos en desarrollo digital, especializados en crear aplicaciones y páginas web que destacan",
+    "rich": "Este es un texto <important>importante</important>.",
+    "globalDefaults": "<highlight>{globalString}</highlight>",
+    "services": "Servicios",
+    "clients": "Clientes",
+    "designTitle": "Diseño",
+    "designCard": "Creamos diseños totalmente personalizados que se adaptan a la visión de tu proyecto, utilizando una paleta de colores óptima para transmitir la idea deseada con precisión y elegancia.",
+    "developmentTitle": "Desarrollo",
+    "developmentCard": "Desarrollamos proyectos siguiendo los últimos patrones de arquitectura y empleando las prácticas más avanzadas en seguridad, garantizando soluciones tecnológicas de vanguardia y eficacia probada.",
+    "maintenanceTitle": "Mantenimiento",
+    "maintenanceCard": "Ofrecemos un servicio de mantenimiento mensual para mantener tu proyecto siempre actualizado y proporcionamos cambios menores de forma gratuita, asegurando su óptimo funcionamiento continuo y sin interrupciones."
+}

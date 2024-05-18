@@ -1,0 +1,10 @@
+{
+    "home": "Inicio",
+    "homeQuote": "Este es el texto que se mostrara en Inicio",
+    "services": "Servicios",
+    "servicesQuote": "Este es el texto que se mostrara en Servicios",
+    "projects": "Proyectos",
+    "projectsQuote": "Este es el texto que se mostrara en Proyectos",
+    "agency": "Agencia",
+    "agencyQuote": "Este es el texto que se mostrara en Agencia"
+}

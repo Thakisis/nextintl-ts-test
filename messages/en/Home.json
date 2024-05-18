@@ -1,0 +1,15 @@
+{
+    "title": "Home",
+    "description": "This is the home page.",
+    "herosub": "We are experts in digital development, specialized in creating standout applications and websites.",
+    "rich": "This is a <important>rich</important> text.",
+    "services": "Services",
+    "clients": "Clients",
+    "designTitle": "Design",
+    "designCard": "We create fully customized designs that adapt to your project's vision, using an optimal color palette to precisely and elegantly convey the desired idea.",
+    "developmentTitle": "Development",
+    "developmentCard": "We develop projects following the latest architecture patterns and employing cutting-edge security practices, ensuring technologically advanced and proven effective solutions.",
+    "maintenanceTitle": "Maintenance",
+    "maintenanceCard": "We offer a monthly maintenance service to keep your project always updated and provide minor changes at no extra cost, ensuring its seamless and uninterrupted optimal operation.",
+    "globalDefaults": "<highlight>{globalString}</highlight>"
+}
